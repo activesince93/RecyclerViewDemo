@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        final String url = "http://javatechig.com/?json=get_recent_posts&count=45";
+        final String url = "YOUR_URL";
         new AsyncGetDetailsTask().execute(url);
     }
 
